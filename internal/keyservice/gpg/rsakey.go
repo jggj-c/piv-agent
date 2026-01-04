@@ -8,7 +8,7 @@ import (
 	"math/big"
 	"regexp"
 
-	"github.com/smlx/piv-agent/internal/assuan"
+	"github.com/jggj-c/piv-agent/internal/assuan"
 )
 
 var ciphertextRSA = regexp.MustCompile(
