@@ -7,12 +7,12 @@ import (
 	"path/filepath"
 	"time"
 
-	"github.com/smlx/piv-agent/internal/keyservice/piv"
-	"github.com/smlx/piv-agent/internal/notify"
-	"github.com/smlx/piv-agent/internal/pinentry"
-	"github.com/smlx/piv-agent/internal/server"
-	"github.com/smlx/piv-agent/internal/sockets"
-	"github.com/smlx/piv-agent/internal/ssh"
+	"github.com/jggj-c/piv-agent/internal/keyservice/piv"
+	"github.com/jggj-c/piv-agent/internal/notify"
+	"github.com/jggj-c/piv-agent/internal/pinentry"
+	"github.com/jggj-c/piv-agent/internal/server"
+	"github.com/jggj-c/piv-agent/internal/sockets"
+	"github.com/jggj-c/piv-agent/internal/ssh"
 	"go.uber.org/zap"
 	"golang.org/x/sync/errgroup"
 )
