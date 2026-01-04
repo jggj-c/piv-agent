@@ -7,10 +7,10 @@ import (
 	"net"
 	"time"
 
-	"github.com/smlx/piv-agent/internal/assuan"
-	"github.com/smlx/piv-agent/internal/keyservice/gpg"
-	"github.com/smlx/piv-agent/internal/keyservice/piv"
-	"github.com/smlx/piv-agent/internal/notify"
+	"github.com/jggj-c/piv-agent/internal/assuan"
+	"github.com/jggj-c/piv-agent/internal/keyservice/gpg"
+	"github.com/jggj-c/piv-agent/internal/keyservice/piv"
+	"github.com/jggj-c/piv-agent/internal/notify"
 	"go.uber.org/zap"
 )
 
