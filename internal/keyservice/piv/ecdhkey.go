@@ -9,7 +9,7 @@ import (
 	"sync"
 
 	pivgo "github.com/go-piv/piv-go/v2/piv"
-	"github.com/smlx/piv-agent/internal/assuan"
+	"github.com/jggj-c/piv-agent/internal/assuan"
 )
 
 var ciphertextECDH = regexp.MustCompile(
