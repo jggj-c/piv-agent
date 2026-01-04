@@ -8,7 +8,7 @@ import (
 	"net"
 	"time"
 
-	"github.com/smlx/piv-agent/internal/ssh"
+	"github.com/jggj-c/piv-agent/internal/ssh"
 	"go.uber.org/zap"
 	"golang.org/x/crypto/ssh/agent"
 )
