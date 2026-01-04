@@ -13,7 +13,7 @@ import (
 	"github.com/ProtonMail/go-crypto/openpgp/armor"
 	openpgpecdsa "github.com/ProtonMail/go-crypto/openpgp/ecdsa"
 	"github.com/ProtonMail/go-crypto/openpgp/packet"
-	"github.com/smlx/piv-agent/internal/keyservice/gpg"
+	"github.com/jggj-c/piv-agent/internal/keyservice/gpg"
 )
 
 func TestTrezorCompat(t *testing.T) {
