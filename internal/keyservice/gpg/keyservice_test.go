@@ -4,8 +4,8 @@ import (
 	"encoding/hex"
 	"testing"
 
-	"github.com/smlx/piv-agent/internal/keyservice/gpg"
-	"github.com/smlx/piv-agent/internal/mock"
+	"github.com/jggj-c/piv-agent/internal/keyservice/gpg"
+	"github.com/jggj-c/piv-agent/internal/mock"
 	"go.uber.org/mock/gomock"
 	"go.uber.org/zap"
 )
