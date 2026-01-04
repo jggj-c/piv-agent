@@ -9,8 +9,8 @@ import (
 	"sync"
 
 	pivgo "github.com/go-piv/piv-go/v2/piv"
-	"github.com/smlx/piv-agent/internal/keyservice/gpg"
-	"github.com/smlx/piv-agent/internal/pinentry"
+	"github.com/jggj-c/piv-agent/internal/keyservice/gpg"
+	"github.com/jggj-c/piv-agent/internal/pinentry"
 	"go.uber.org/zap"
 )
 
