@@ -8,7 +8,7 @@ import (
 	"regexp"
 
 	"filippo.io/nistec"
-	"github.com/smlx/piv-agent/internal/assuan"
+	"github.com/jggj-c/piv-agent/internal/assuan"
 )
 
 var ciphertextECDH = regexp.MustCompile(
