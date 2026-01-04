@@ -11,9 +11,9 @@ import (
 	"path/filepath"
 	"sync"
 
-	"github.com/smlx/piv-agent/internal/keyservice/piv"
-	"github.com/smlx/piv-agent/internal/notify"
-	pinentry "github.com/smlx/piv-agent/internal/pinentry"
+	"github.com/jggj-c/piv-agent/internal/keyservice/piv"
+	"github.com/jggj-c/piv-agent/internal/notify"
+	pinentry "github.com/jggj-c/piv-agent/internal/pinentry"
 	"go.uber.org/zap"
 	gossh "golang.org/x/crypto/ssh"
 	"golang.org/x/crypto/ssh/agent"
